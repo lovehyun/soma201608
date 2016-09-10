@@ -16,6 +16,9 @@
 #include <netinet/udp.h>
 #include <netinet/ip_icmp.h>
 
+#include <arpa/inet.h>
+#include <sys/socket.h>
+
 #define PROMISCUOUS 1
 #define NONPROMISCUOUS 0
 
